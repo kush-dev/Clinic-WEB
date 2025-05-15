@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       
+
+        <title>Ruiru Hospital</title>
+        <link rel="stylesheet" href="css/kush.css">
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+        <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
+        <link href="css/templatemo-medic-care.css" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+        <script src ="js/kush.js" crossorigin="anonymous"></script>   
+
+
+
+    </head>
+    
+    <body id="top">
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+                <div class="container">
+                    <a class="navbar-brand mx-auto d-lg-none" href="index.html">
+                        Lens Afya
+                        <strong class="d-block">Clinic</strong>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#hero">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#timeline">Our services</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Directions</a>
+                            </li>
+
+                            <a class="navbar-brand d-none d-lg-block" href="index.html">
+                                Lens Afya
+                                <strong class="d-block">Clinic</strong>
+                            </a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reviews">Testimonials</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Registration Form</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/slider/equip2.jpg" width="1602px" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slider/doctor.jpg" width="1062px" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slider/equip1.jpg" width="1602px" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="heroText d-flex flex-column justify-content-center">
+
+                                <h1 class="mt-auto mb-2">
+                                    Better
+                                    <div class="animated-info">
+                                        <span class="animated-item">Health</span>
+                                        <span class="animated-item">Days</span>
+                                        <span class="animated-item">Lives</span>
+                                    </div>
+                                </h1>
+
+                                <p class="mb-4">Welcome to Lens Afya where we put yours needs first. World class doctors with years of experience who give you better <h4>Days Health and Lives </h4></h2></p>
+
+                                <div class="heroLinks d-flex flex-wrap align-items-center">
+                                    <a class="custom-link me-4" href="#timeline" data-hover="Learn More">Learn More</a>
+
+                                    <p class="contact-phone mb-0"><i class="bi-phone" id="phone"></i><a href="tel:+254724934011">+254724934011</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding" id="about";">
+    <div class="container">
+        <div class="row">
+            <center>
+                <p3>Please fill out our online registration form below. For inquiries, contact customer care <a href="#contact">Here</a></p3>
+                <br><br>
+                <div class="center">
+                    <input type="checkbox" id="click" style="display: none;">
+                    <label for="click" class="click-me btn btn-primary">Registration Form</label>
+                    <br>
+                    <div class="content modal">
+                        <div class="header">
+                            <h2>Hospital Registration Form</h2>
+                            <label for="click" class="fas fa-times close-btn"></label>
+                        </div>
+                        <br>
+                        <form id="registration-form" class="registration-form">
+                            <div class="form-group">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" name="full-name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" id="dob" name="dob" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                <select id="gender" name="gender" class="form-control" required>
+                                    <option value="">Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <textarea id="address" name="address" class="form-control" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                            <label for="click" class="btn btn-secondary close-btn">Close</label>
+                        </form>
+                    </div>
+                    <div class="modal-backdrop"></div>
+                </div>
+            </center>
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <h2 class="mb-lg-3 mb-3">Meet Dr. Winnie who says:</h2>
+                <p>At Lens Afya Clinic, we prioritize your overall well-being. To maintain optimal health, ensure a balanced diet rich in fruits, vegetables, whole grains, and lean proteins to support your immune system and energy levels. Regular physical activity, such as 30 minutes of moderate exercise most days of the week, promotes cardiovascular health, improves mood, and enhances sleep quality. Prioritize hydration by drinking at least eight glasses of water daily to aid digestion, skin health, and organ function.</p>
+                <p>Regular checkups are essential for early detection and prevention of health issues. Schedule annual screenings and consult our specialists for personalized advice on managing stress, maintaining healthy cholesterol levels, and monitoring blood pressure. Mental health is equally important—practice mindfulness or engage in hobbies to reduce stress and foster emotional resilience. For any health concerns, our dedicated team is available to provide expert guidance. Fill in the registration form or contact us for comprehensive care tailored to your needs.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-12 mx-auto">
+                <div class="featured-circle bg-white shadow-lg d-flex justify-content-center align-items-center">
+                    <p class="featured-text"><span class="featured-number"><br>Lens</br> <br>Afya</br> <br>Clinic</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                              
+
+            <section class="gallery">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-6 ps-0">
+                            <img src="images/gallery/slid.jpg" class="img-fluid galleryImage" alt="get a vaccine" title="Lens Afya hospital">
+                        </div>
+
+                        <div class="col-lg-6 col-6 pe-0">
+                            <img src="images/gallery/vaccine.jpg" class="img-fluid galleryImage" alt="wear a mask" title="get a vaccine for yourself">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding pb-0" id="timeline">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-center mb-lg-5 mb-4">Our Services</h2>
+                        <div class="timeline">
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class="text-light">General Checkups</h3>
+                                    <p>Schedule routine checkups with our experienced doctors to monitor and maintain your overall health.</p>
+                                </div>
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-heart-pulse timeline-icon"></i>
+                                </div>
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>Mon-Fri: 8 AM - 5 PM</time>
+                                </div>
+                            </div>
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class="text-light">Consultation Services</h3>
+                                    <p>Please book appointments with your doctors to get consultation on any health problems you may have.</p>
+                                </div>
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-book timeline-icon"></i>
+                                </div>
+                                <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>Please Book Appointments</time>
+                                </div>
+                            </div>
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class="text-light">Diagnostic Testing</h3>
+                                    <p>Access advanced diagnostic services, including blood tests, imaging, and more, for accurate health assessments.</p>
+                                </div>
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-clipboard-data timeline-icon"></i>
+                                </div>
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>Available Daily</time>
+                                </div>
+                            </div>
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class="text-light">Certified Nurses</h3>
+                                    <p>We have certified doctors and nurses that are truly qualified to serve you in any health problem you may have.</p>
+                                </div>
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-file-medical timeline-icon"></i>
+                                </div>
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>100% Assurance</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding pb-0" id="reviews">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center mb-lg-5 mb-4">Our Patients</h2>
+                <div class="owl-carousel reviews-carousel">
+                    <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                        <div class="reviews-stars">
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star"></i>
+                        </div>
+                        <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Exceptional Care</strong></p>
+                        <p class="reviews-text w-100">Lens Afya Clinic provided me with thorough and compassionate care during my checkup. The staff was professional, and the doctors took time to explain everything clearly.</p>
+                        <img src="images/reviews/beautiful-woman-face-portrait-brown-background.jpg" class="img-fluid reviews-image" alt="">
+                        <figcaption class="ms-4">
+                            <strong>Jane M.</strong>
+                            <span class="text-muted">Patient</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                        <div class="reviews-stars">
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star"></i>
+                        </div>
+                        <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Highly Professional</strong></p>
+                        <p class="reviews-text w-100">The team at Lens Afya Clinic made my diagnostic tests seamless. Their attention to detail and follow-up care were outstanding.</p>
+                        <img src="images/reviews/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpg" class="img-fluid reviews-image" alt="">
+                        <figcaption class="ms-4">
+                            <strong>Peter K.</strong>
+                            <span class="text-muted">Recovered</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                        <div class="reviews-stars">
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                        </div>
+                        <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Amazing Service</strong></p>
+                        <p class="reviews-text w-100">I had a fantastic experience at Lens Afya Clinic. The nurses were kind, and the consultation was thorough. Highly recommend!</p>
+                        <img src="images/reviews/portrait-british-woman.jpeg" class="img-fluid reviews-image" alt="">
+                        <figcaption class="ms-4">
+                            <strong>Esther W.</strong>
+                            <span class="text-muted">New Patient</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                        <div class="reviews-stars">
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star"></i>
+                            <i class="bi-star"></i>
+                        </div>
+                        <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Trusted Care</strong></p>
+                        <p class="reviews-text w-100">Lens Afya Clinic helped me manage my condition with expert advice and genuine care. I felt valued as a patient.</p>
+                        <img src="images/reviews/woman-wearing-mask-face-closeup-covid-19-green-background.jpg" class="img-fluid reviews-image" alt="">
+                        <figcaption class="ms-4">
+                            <strong>Mary N.</strong>
+                            <span class="text-muted">Returning Patient</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+         
+            
+        </main>
+
+        <footer class="site-footer section-padding" id="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 me-auto col-12">
+                        <h5 class="mb-lg-4 mb-3">Opening Hours</h5>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex">
+                                Sunday 
+                                <span>24/7 Services</span> 
+                            </li>
+
+                            <li class="list-group-item d-flex">
+                                Monday -- Friday
+                                <span>24/7 Service</span>
+                            </li>
+
+                            <li class="list-group-item d-flex">
+                                Saturday
+                                <span>24/7 Service</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-12 my-4 my-lg-0">
+                        <h5 class="mb-lg-4 mb-3">Our Hospital</h5>
+
+                        <p><a href="https://www.google.com/search?q=ruiru%20sub%20county%20hospital&oq=ruiru+sub+county+hospital&aqs=chrome..69i57j0i512l2j0i22i30l2j69i60l3.7143j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsYbBmbqlTHDVUNR-KKYBSVc5UyMsg:1652435155214&rflfq=1&num=10&rldimm=15868311154506193122&lqi=ChlydWlydSBzdWIgY291bnR5IGhvc3BpdGFsSNKZ4tznlYCACFoxEAEQAhADGAAYARgCGAMiGXJ1aXJ1IHN1YiBjb3VudHkgaG9zcGl0YWwqBggCEAEQApIBCGhvc3BpdGFs&ved=2ahUKEwiOnMPTmNz3AhVJgs4BHe4YAE4QvS56BAgEEAE&sa=X&rlst=f#rlfi=hd:;si:15868311154506193122,l,ChlydWlydSBzdWIgY291bnR5IGhvc3BpdGFsSNKZ4tznlYCACFoxEAEQAhADGAAYARgCGAMiGXJ1aXJ1IHN1YiBjb3VudHkgaG9zcGl0YWwqBggCEAEQApIBCGhvc3BpdGFs;mv:[[-1.1360896999999999,36.9573511],[-1.1451052,36.9556449]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"target="_blank">Lens Afya Clinic@hospital.co</a><p>
+
+                        <p>Address: Unnamed Road Biashara Ruiru Kiambu KE, Ruiru</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 ms-auto">
+                        <h5 class="mb-lg-4 mb-3">Socials</h5>
+
+                        <ul class="social-icon">
+                            <li><a href="https://m.facebook.com/profile.php?id=159233184697617" class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="https://twitter.com/?lang=en" class="social-icon-link bi-twitter"></a></li>
+
+                            <li><a href="https://www.instagram.com/accounts/login/" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <br><br>
+
+                            <p class="contact-phone mb-0"><i class="bi-phone" id="phone"></i><a href="tel:+254724934011"> Customer Care +254724934011</a> </p>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-12 ms-auto mt-4 mt-lg-0">
+                        <p class="copyright-text">Copyright © Lens Afya Clinic 2022 
+                        <br><br>Design: <a href="https://www.instagram.com/accounts/login/" target="_parent">@thee_alonso_saph1</a></p>
+                    </div>
+
+                </div>
+            </section>
+        </footer>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <script src="js/custom.js"></script>
+
+        <script>
+            let btn=document.getElementById(download);
+            btn.addEventListener('click', () =>{
+                alert('Success')
+            }
+
+
+
+        </script>
+
+    </body>
+</html>
+
+<!-- Designer Alonso and associates Follow us on
+instagram----@theealonsosaph1
+Twitter-----@kush_mafom
+Gmail----allanngugi7@gmail.com
+-->
